@@ -1,0 +1,157 @@
+body {
+  background: linear-gradient(rgb(38, 117, 182) rgb(13, 160, 13));
+}
+h1 {
+  text-align: center;
+  padding: 25px 10px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.box {
+  border: solid black 2px;
+  border-radius: 30px;
+  max-width: 600px;
+  max-height: 500px;
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+  background: rgb(187, 225, 228);
+}
+ul {
+  display: inline;
+  text-align: center;
+  list-style: none;
+}
+li {
+  display: inline;
+  margin: 0 5px 15px 10px;
+}
+.control {
+  padding-right: 20px;
+}
+.cities {
+  display: inline-block 0;
+  padding: 10px 400px 0px 45px;
+  margin: 0 auto;
+  position: relative;
+  left: 5px;
+  font-size: 10px;
+}
+p {
+  text-align: left;
+  position: relative;
+  left: 50px;
+  bottom: 10px;
+}
+button {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(16, 77, 16);
+  font-size: 70px;
+  position: relative;
+  left: 47px;
+  bottom: 40px;
+  font-weight: bolder;
+}
+.sky {
+  font-size: 40px;
+  position: relative;
+  left: 45px;
+  bottom: 90px;
+}
+section {
+  text-align: left;
+  position: relative;
+  left: 95px;
+  bottom: 140px;
+}
+.col-1 {
+  padding: 0px 340px;
+  position: relative;
+  right: 345px;
+}
+
+.roll {
+  color: teal;
+  background: rgb(210, 221, 189);
+  font-size: 20px;
+  padding: 2px 10px;
+  position: relative;
+  display: block;
+  margin: 5px auto;
+  border: solid rgb(16, 80, 80) 1px;
+  border-radius: 5px;
+  text-align: left;
+  top: 525px;
+  left: 80px;
+}
+.red:hover {
+  color: brown;
+}
+
+.row-3 {
+  padding: 0px 180px;
+  margin: 0px auto;
+  position: relative;
+  bottom: 950px;
+  max-width: fit-content;
+}
+.col {
+  border: solid 1px teal;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  position: relative;
+  bottom: 100px;
+  left: 50px;
+}
+.day {
+  border: solid 1px teal;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  display: inline-block;
+  position: relative;
+  bottom: 100px;
+  color: yellow;
+  background: rgb(14, 104, 116);
+}
+p1 {
+  font-size: 25px;
+  color: rgb(23, 35, 201);
+  font-weight: bolder;
+}
+p3 {
+  font-size: 20px;
+  position: relative;
+  left: 150px;
+  bottom: 145px;
+}
+
+.form-control {
+  text-align: left;
+  position: relative;
+  right: 8px;
+  margin: 0 auto;
+  width: 250px;
+}
+.col-search {
+  position: relative;
+  left: 240px;
+  padding: 0px 35px;
+  margin: 0px;
+  bottom: 40px;
+}
+.stack {
+  position: relative;
+  bottom: 80px;
+  padding-top: 30px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: large;
+  font-weight: bold;
+}
