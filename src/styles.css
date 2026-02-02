@@ -1,5 +1,5 @@
 body {
-  background: white;
+  background: linear-gradient(rgb(38, 117, 182) rgb(13, 160, 13));
 }
 h1 {
   text-align: center;
@@ -11,7 +11,7 @@ h1 {
   border: solid black 2px;
   border-radius: 30px;
   max-width: 600px;
-  max-height: 500px;
+  max-height: 400px;
   padding: 20px;
   display: block;
   margin: 0 auto;
@@ -25,6 +25,8 @@ ul {
 li {
   display: inline;
   margin: 0 5px 15px 10px;
+  position: relative;
+  bottom: 80px;
 }
 .control {
   padding-right: 20px;
@@ -47,25 +49,26 @@ button {
   text-align: center;
 }
 
-h2 {
+.temperature {
   color: rgb(16, 77, 16);
-  font-size: 70px;
+  font-size: 80px;
   position: relative;
-  left: 47px;
-  bottom: 40px;
-  font-weight: bolder;
+  right: 100px;
+  display: flex;
+  justify-content: right;
+  bottom: 70px;
 }
 .sky {
   font-size: 40px;
   position: relative;
   left: 45px;
-  bottom: 90px;
+  bottom: 160px;
 }
 section {
   text-align: left;
   position: relative;
   left: 95px;
-  bottom: 140px;
+  bottom: 210px;
 }
 .col-1 {
   padding: 0px 340px;
@@ -126,11 +129,13 @@ p1 {
 p3 {
   font-size: 20px;
   position: relative;
-  left: 150px;
-  bottom: 145px;
+  bottom: 205px;
+  right: 80px;
+  display: flex;
+  justify-content: right;
 }
 
-.form-control {
+.row {
   text-align: left;
   position: relative;
   right: 8px;
@@ -139,10 +144,10 @@ p3 {
 }
 .col-search {
   position: relative;
-  left: 240px;
+  left: 210px;
   padding: 0px 35px;
   margin: 0px;
-  bottom: 40px;
+  bottom: 39px;
 }
 .stack {
   position: relative;
@@ -154,4 +159,7 @@ footer {
   padding: 20px;
   font-size: large;
   font-weight: bold;
+}
+a:hover {
+  color: brown;
 }
